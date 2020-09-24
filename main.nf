@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-param.inCsvFile="./test.csv"
+params.inCsvFile="./test.csv"
 
 sampleChannel = channel
   .fromPath("${param.inCsvFile}", type: "file")
