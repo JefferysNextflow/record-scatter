@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Not an R projects, only editing with RStudio for convienience
+record-scatter.Rproj
