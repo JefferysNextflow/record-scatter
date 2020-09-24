@@ -3,7 +3,7 @@
 params.inCsvFile="./test.csv"
 
 sampleChannel = channel
-  .fromPath("${param.inCsvFile}", type: "file")
+  .fromPath("${params.inCsvFile}", type: "file")
   .splitCsv(header: true)
   .map{ row -> tuple(row.id, row.name) }
 
